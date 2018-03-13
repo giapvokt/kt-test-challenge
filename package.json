@@ -36,7 +36,7 @@
     "start": "NODE_ENV=dev react-app-rewired start",
     "build": "NODE_ENV=production react-app-rewired build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
