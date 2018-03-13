@@ -1,0 +1,19 @@
+.main{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  &-header{
+    flex: 0 0 auto;
+    background-color: #dcdcdc;
+    height: 52px;
+  }
+  &-content{
+    flex: 1 1 auto;
+    position: relative;/* need this to position inner content */
+    overflow-y: auto;
+    padding-top: 10px;
+  }
+  &-footer{
+    flex: 0 0 auto;
+  }
+}
